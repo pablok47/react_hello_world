@@ -1,0 +1,34 @@
+{
+  "name": "react_hello_world",
+  "version": "1.0.0",
+  "description": "Hello World in reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress",
+    "test": "npm run lint && npm run test-node && npm run test-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablok47/react_hello_world.git"
+  },
+  "keywords": [
+    "hello",
+    "world",
+    "react"
+  ],
+  "author": "Pablo Kaparis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablok47/react_hello_world/issues"
+  },
+  "homepage": "https://github.com/pablok47/react_hello_world#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.*",
+    "babel-loader": "^5.3.*",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.10.*"
+  },
+  "dependencies": {
+    "react": "^0.13.*"
+  }
+}
